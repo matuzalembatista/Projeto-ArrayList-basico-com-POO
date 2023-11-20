@@ -10,24 +10,24 @@ public class Main {
         listarAlunos.add(aluno1);
 
         Aluno aluno2 = new Aluno();
-        aluno1.setNome("Ana");
-        aluno1.setNota(8.5);
+        aluno2.setNome("Ana");
+        aluno2.setNota(8.5);
         listarAlunos.add(aluno2);
 
 
         Aluno aluno3 = new Aluno();
-        aluno1.setNome("Maria");
-        aluno1.setNota(5.9);
+        aluno3.setNome("Maria");
+        aluno3.setNota(5.9);
         listarAlunos.add(aluno3);
 
         Aluno aluno4 = new Aluno();
-        aluno1.setNome("Joao");
-        aluno1.setNota(7.4);
+        aluno4.setNome("Joao");
+        aluno4.setNota(7.4);
         listarAlunos.add(aluno4);
 
+
         double media = calcularMedia(listarAlunos);
-        System.out.println(" Media de notas dos alunos: " + media);
-        System.out.println("total de alunos: " + calcularMedia());
+        System.out.printf(" Media de notas dos alunos: %.2f ", media);
     }
 
 
